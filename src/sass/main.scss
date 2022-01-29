@@ -1,0 +1,105 @@
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+
+// Стили для файла с примером HTML-фрагмента
+@import './common';
+@import './container';
+@import './reset';
+@import './header';
+
+// HERO =================================================
+
+.hero {
+  padding-top: 200px;
+  padding-bottom: 100px;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/pavement-3147099_1920.jpg);
+}
+.hero-container {
+  display: flex;
+  justify-content: end;
+}
+.hero-wrapper {
+  background-color: rgba(47, 48, 58, 0.4);
+  border-radius: 15px;
+  box-shadow: 8px 8px 12px 5px rgba(84, 74, 74, 0.5);
+  width: 500px;
+  height: 350px;
+  padding: 20px;
+  text-align: right;
+  .hero-header {
+    font-size: 44px;
+    font-weight: bold;
+    color: rgba(250, 207, 57, 0.7);
+    margin-bottom: 30px;
+  }
+  .hero-descr {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  .hero-link {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgba(47, 48, 58, 0.4);
+    color: rgba(247, 204, 49, 0.966);
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    &:hover,
+    &:focus {
+      cursor: pointer;
+      box-shadow: 0px 5px 10px 15px rgba(34, 60, 80, 0.2);
+    }
+  }
+}
+
+// FOOTER ==============
+.footer {
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/pavement-3147099_1920.jpg);
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .footer-left {
+    img {
+      border-radius: 30px;
+    }
+  }
+  .footer-center {
+    .footer-list {
+      .footer-item {
+        font-size: 20px;
+        font-weight: bold;
+        color: rgba(250, 207, 57, 0.7);
+        margin-bottom: 10px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+        &:hover {
+          color: rgba(250, 207, 57, 1);
+        }
+      }
+    }
+  }
+  .footer-right {
+    .call-text {
+      margin-bottom: 20px;
+      font-size: 20px;
+      color: #facf39;
+      font-weight: bold;
+    }
+    a {
+      font-size: 20px;
+      color: #facf39;
+    }
+  }
+}
