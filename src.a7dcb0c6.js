@@ -3,4 +3,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"./../images/pavement-3147099_1920.jpg":[["pavement-3147099_1920.a190b1ff.jpg","mN2u"],"mN2u"]}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss");
 },{"./sass/main.scss":"clu1"}]},{},["Focm"], null)
-//# sourceMappingURL=/bruk-project/src.894d791b.js.map
+//# sourceMappingURL=/bruk-project/src.a7dcb0c6.js.map
